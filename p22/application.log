@@ -1,0 +1,270 @@
+1079 [main] INFO  com.example.p22.P22Application
+                – Starting P22Application using Java 17.0.7 with PID 6796 (C:\Users\at0m\IdeaProjects\javaPract_semestr4\p22\target\classes started by at0m in C:\Users\at0m\IdeaProjects\javaPract_semestr4\p22)
+1094 [main] INFO  com.example.p22.P22Application
+                – No active profile set, falling back to 1 default profile: "default"
+2387 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2478 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 79 ms. Found 2 JPA repository interfaces.
+3370 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3384 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3385 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3385 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3545 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3546 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2356 ms
+3770 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4015 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40ed1802
+4018 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4086 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4152 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+4594 [main] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5520 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5535 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6123 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6722 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                – Bean with key 'schedulerService' has been registered as an MBean but has no exposed attributes or operations
+6735 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6762 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6779 [main] INFO  com.example.p22.P22Application
+                – Started P22Application in 6.262 seconds (process running for 7.545)
+6789 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+6975 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+6979 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@37cb740b persist for 184 ms with parametrs{}: []
+7075 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7085 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7086 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@2714f2ea persist for 10 ms with parametrs{}: []
+7141 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7141 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@5401255f persist for 361 ms with parametrs{}: []
+7142 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7145 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7146 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@4476bc99 persist for 3 ms with parametrs{}: []
+7156 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7163 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7163 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@3faf1567 persist for 7 ms with parametrs{}: []
+7198 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7199 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@1ae0c67b persist for 57 ms with parametrs{}: []
+7199 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7203 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7203 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@51d1ab34 persist for 4 ms with parametrs{}: []
+7212 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7217 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7218 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@1c1a00f6 persist for 5 ms with parametrs{}: []
+7234 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7235 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@118461d8 persist for 35 ms with parametrs{}: []
+7381 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7384 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7384 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@2b8837bb persist for 3 ms with parametrs{}: []
+7392 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7398 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7398 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@6e4de11e persist for 6 ms with parametrs{}: []
+7414 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7414 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@771661f3 persist for 34 ms with parametrs{}: []
+7586 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7613 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7613 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@e75cc06 persist for 27 ms with parametrs{}: []
+7624 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7630 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7631 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@6c730389 persist for 6 ms with parametrs{}: []
+7647 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7647 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@44bf0da0 persist for 61 ms with parametrs{}: []
+7792 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7796 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7796 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@631d97e9 persist for 4 ms with parametrs{}: []
+7807 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7811 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7812 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@36b450e4 persist for 4 ms with parametrs{}: []
+7831 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+7831 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@523c9b92 persist for 40 ms with parametrs{}: []
+7981 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+7984 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+7984 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@61ccabbf persist for 3 ms with parametrs{}: []
+7990 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+7994 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+7994 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@742aeac3 persist for 3 ms with parametrs{}: []
+8003 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+8004 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@484f920d persist for 22 ms with parametrs{}: []
+8187 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+8190 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+8190 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@57bdb113 persist for 3 ms with parametrs{}: []
+8196 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+8202 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+8202 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@6fd13c32 persist for 6 ms with parametrs{}: []
+8214 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+8214 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@38b113b1 persist for 28 ms with parametrs{}: []
+8392 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+8397 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+8397 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@4830a13e persist for 5 ms with parametrs{}: []
+8408 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+8416 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+8418 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@55ffd589 persist for 8 ms with parametrs{}: []
+8440 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+8441 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@25d1dfb2 persist for 48 ms with parametrs{}: []
+8584 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+8587 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+8588 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@11978fb6 persist for 3 ms with parametrs{}: []
+8597 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+8602 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+8602 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@29d9fef0 persist for 5 ms with parametrs{}: []
+8618 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+8619 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@69d0e31c persist for 34 ms with parametrs{}: []
+8789 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+8792 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+8793 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@654dbc0a persist for 3 ms with parametrs{}: []
+8800 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+8805 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+8805 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@74797757 persist for 4 ms with parametrs{}: []
+8819 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+8819 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@94561da persist for 30 ms with parametrs{}: []
+8980 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+8983 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+8983 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@e29fea0 persist for 3 ms with parametrs{}: []
+8992 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+8998 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+8998 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@7a3abb9 persist for 6 ms with parametrs{}: []
+9015 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+9015 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@7b083f29 persist for 35 ms with parametrs{}: []
+9185 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+9188 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+9188 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@82bf644 persist for 3 ms with parametrs{}: []
+9195 [scheduling-1] INFO  c.e.p22.services.ProductService
+                – Products displayed
+9198 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – ProductService.findAll()
+9199 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.ProductService[Ljava.lang.Object;@70241e91 persist for 3 ms with parametrs{}: []
+9209 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+9209 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@31d8ba36 persist for 24 ms with parametrs{}: []
+9390 [scheduling-1] INFO  c.e.p22.services.MarketService
+                – Market displayed
+9398 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – MarketService.findAll()
+9398 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: findAll from class com.example.p22.services.MarketService[Ljava.lang.Object;@49fcb540 persist for 8 ms with parametrs{}: []
+9403 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+9410 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+9420 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+9425 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – SchedulerService.scheduledTask()
+9425 [scheduling-1] INFO  com.example.p22.AOPAspect
+                – Method: scheduledTask from class com.example.p22.services.SchedulerService[Ljava.lang.Object;@5cca59fd persist for 36 ms with parametrs{}: []

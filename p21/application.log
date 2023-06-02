@@ -1,0 +1,70 @@
+1231 [main] INFO  com.example.p21.P21Application
+                – Starting P21Application using Java 17.0.7 with PID 12508 (C:\Users\at0m\IdeaProjects\javaPract_semestr4\p21\target\classes started by at0m in C:\Users\at0m\IdeaProjects\javaPract_semestr4\p21)
+1242 [main] INFO  com.example.p21.P21Application
+                – No active profile set, falling back to 1 default profile: "default"
+2396 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2497 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 83 ms. Found 2 JPA repository interfaces.
+3536 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3568 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3568 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3568 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3743 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3743 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2419 ms
+3931 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+4147 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@800d065
+4147 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4209 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4272 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+4711 [main] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5635 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5650 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6242 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6704 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+6741 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+6752 [main] INFO  com.example.p21.P21Application
+                – Started P21Application in 6.178 seconds (process running for 7.527)
+19758 [http-nio-8080-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+19758 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+19758 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+19791 [http-nio-8080-exec-7] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+                – Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+24107 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+                – Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+27386 [http-nio-8080-exec-4] INFO  c.e.p21.services.ProductService
+                – Product with id:{product.getID()} saved
+27467 [http-nio-8080-exec-4] INFO  com.example.p21.AOPAspect
+                – ProductService.save(..)
+27471 [http-nio-8080-exec-4] INFO  com.example.p21.AOPAspect
+                – Method: save from class com.example.p21.services.ProductService[Ljava.lang.Object;@6063160d persist for 81 ms with parametrs{}: [Product(id=12, name=helb, price=12342, market=null)]
+27488 [http-nio-8080-exec-4] INFO  com.example.p21.AOPAspect
+                – EmailService.sendNotification(..)
+27488 [http-nio-8080-exec-4] INFO  com.example.p21.AOPAspect
+                – Method: sendNotification from class com.example.p21.services.EmailService[Ljava.lang.Object;@58c4b149 persist for 0 ms with parametrs{}: [Product(id=12, name=helb, price=12342, market=null)]
+38536 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+38551 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+38551 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
