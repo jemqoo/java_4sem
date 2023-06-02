@@ -1,0 +1,12 @@
+489  [main] INFO  c.e.p24.services.MarketService
+                – Market with id:{product.getID()} saved
+612  [main] INFO  c.e.p24.services.MarketService
+                – Market displayed
+615  [main] INFO  c.e.p24.services.MarketService
+                – Market displayed
+453  [main] INFO  c.e.p24.services.ProductService
+                – Product with id:{product.getID()} saved
+547  [main] INFO  c.e.p24.services.ProductService
+                – Products displayed
+550  [main] INFO  c.e.p24.services.ProductService
+                – Products displayed
