@@ -1,0 +1,148 @@
+683  [main] INFO  com.example.p20.P20Application
+                – Starting P19Application using Java 17.0.7 with PID 10680 (C:\Users\at0m\IdeaProjects\javaPract_semestr4\p19\target\classes started by at0m in C:\Users\at0m\IdeaProjects\javaPract_semestr4\p19)
+683  [main] INFO  com.example.p20.P20Application
+                – No active profile set, falling back to 1 default profile: "default"
+1265 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 40 ms. Found 2 JPA repository interfaces.
+1703 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+1703 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+1703 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+1703 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.5]
+1781 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+1797 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1053 ms
+1890 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2015 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1dcedc93
+2015 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2046 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2078 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+2317 [main] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2812 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2819 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+3076 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+3434 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+3465 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+3465 [main] INFO  com.example.p20.P20Application
+                – Started P19Application in 3.124 seconds (process running for 3.844)
+14044 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+14044 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+14044 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 0 ms
+14060 [http-nio-8080-exec-2] INFO  c.e.p19.services.ProductService
+                – Products displayed
+14968 [http-nio-8080-exec-3] INFO  c.e.p19.services.ProductService
+                – Products displayed
+15600 [http-nio-8080-exec-4] INFO  c.e.p19.services.ProductService
+                – Products displayed
+24541 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+24541 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+24541 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
+740  [main] INFO  com.example.p20.P20Application
+                – Starting P20Application using Java 17.0.7 with PID 16380 (C:\Users\at0m\IdeaProjects\javaPract_semestr4\p20\target\classes started by at0m in C:\Users\at0m\IdeaProjects\javaPract_semestr4\p20)
+745  [main] INFO  com.example.p20.P20Application
+                – No active profile set, falling back to 1 default profile: "default"
+1605 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1677 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2309 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+2319 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+2320 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+2320 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.5]
+2407 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+2408 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 1608 ms
+2530 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+2690 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@27a9f025
+2691 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+2728 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+2768 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+3036 [main] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+3722 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3737 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4078 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4423 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+4443 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+4452 [main] INFO  com.example.p20.P20Application
+                – Started P20Application in 4.044 seconds (process running for 5.161)
+9582 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9582 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+9584 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+9625 [http-nio-8080-exec-1] INFO  c.e.p20.services.ProductService
+                – Products displayed
+9780 [http-nio-8080-exec-1] INFO  com.example.p20.AOPAspect
+                – ProductService.findAll()
+9784 [http-nio-8080-exec-1] INFO  com.example.p20.AOPAspect
+                – Method: findAll from class com.example.p20.services.ProductService[Ljava.lang.Object;@283a63b5 persist for 155 ms with parametrs{}: []
+10546 [http-nio-8080-exec-3] INFO  c.e.p20.services.ProductService
+                – Products displayed
+10550 [http-nio-8080-exec-3] INFO  com.example.p20.AOPAspect
+                – ProductService.findAll()
+10550 [http-nio-8080-exec-3] INFO  com.example.p20.AOPAspect
+                – Method: findAll from class com.example.p20.services.ProductService[Ljava.lang.Object;@72f6832a persist for 4 ms with parametrs{}: []
+10876 [http-nio-8080-exec-4] INFO  c.e.p20.services.ProductService
+                – Products displayed
+10880 [http-nio-8080-exec-4] INFO  com.example.p20.AOPAspect
+                – ProductService.findAll()
+10880 [http-nio-8080-exec-4] INFO  com.example.p20.AOPAspect
+                – Method: findAll from class com.example.p20.services.ProductService[Ljava.lang.Object;@5bd2d5e5 persist for 4 ms with parametrs{}: []
+11206 [http-nio-8080-exec-5] INFO  c.e.p20.services.ProductService
+                – Products displayed
+11209 [http-nio-8080-exec-5] INFO  com.example.p20.AOPAspect
+                – ProductService.findAll()
+11209 [http-nio-8080-exec-5] INFO  com.example.p20.AOPAspect
+                – Method: findAll from class com.example.p20.services.ProductService[Ljava.lang.Object;@f041460 persist for 3 ms with parametrs{}: []
+11932 [http-nio-8080-exec-10] INFO  c.e.p20.services.ProductService
+                – Products displayed
+11935 [http-nio-8080-exec-10] INFO  com.example.p20.AOPAspect
+                – ProductService.findAll()
+11936 [http-nio-8080-exec-10] INFO  com.example.p20.AOPAspect
+                – Method: findAll from class com.example.p20.services.ProductService[Ljava.lang.Object;@1bb2f2ee persist for 3 ms with parametrs{}: []
+15255 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+15259 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+15264 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
