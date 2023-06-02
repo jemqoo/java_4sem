@@ -1,0 +1,66 @@
+1066 [main] INFO  com.example.p23.P23Application
+                – Starting P23Application using Java 17.0.7 with PID 17988 (C:\Users\at0m\IdeaProjects\javaPract_semestr4\p23\target\classes started by at0m in C:\Users\at0m\IdeaProjects\javaPract_semestr4\p23)
+1066 [main] INFO  com.example.p23.P23Application
+                – No active profile set, falling back to 1 default profile: "default"
+2413 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2509 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 90 ms. Found 3 JPA repository interfaces.
+3436 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+3436 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+3436 [main] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+3452 [main] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/10.1.5]
+3577 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+3577 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 2430 ms
+3765 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+3993 [main] INFO  com.zaxxer.hikari.pool.HikariPool
+                – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4dfdfe7d
+3993 [main] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+4040 [main] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+4118 [main] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 6.1.7.Final
+4498 [main] INFO  SQL dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+5439 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+5454 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+6199 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration
+                – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+6741 [main] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d7c05fa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dbbf730, org.springframework.security.web.context.SecurityContextHolderFilter@3a9040f0, org.springframework.security.web.header.HeaderWriterFilter@46c9ee28, org.springframework.security.web.authentication.logout.LogoutFilter@391e2a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@575fe6da, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d3768ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dc7c5fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c4a5ef2, org.springframework.security.web.access.ExceptionTranslationFilter@7fe0ca60, org.springframework.security.web.access.intercept.AuthorizationFilter@62c42a3]
+7067 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter
+                – Bean with key 'schedulerService' has been registered as an MBean but has no exposed attributes or operations
+7083 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+7099 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+7114 [main] INFO  com.example.p23.P23Application
+                – Started P23Application in 6.57 seconds (process running for 8.035)
+9577 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+9577 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+9594 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 17 ms
+9660 [http-nio-8080-exec-1] INFO  c.e.p23.services.ProductService
+                – Products displayed
+9826 [http-nio-8080-exec-1] INFO  com.example.p23.AOPAspect
+                – ProductService.findAll()
+9826 [http-nio-8080-exec-1] INFO  com.example.p23.AOPAspect
+                – Method: findAll from class com.example.p23.services.ProductService[Ljava.lang.Object;@10e89668 persist for 166 ms with parametrs{}: []
+19817 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Closing JPA EntityManagerFactory for persistence unit 'default'
+19817 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown initiated...
+19817 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Shutdown completed.
